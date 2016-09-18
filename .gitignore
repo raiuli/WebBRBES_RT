@@ -1,0 +1,4 @@
+# ignore project and local hidden files
+.DS_Store
+.idea
+

@@ -1,0 +1,253 @@
+body{font-family:'Open Sans',sans-serif;font-size:16px;color:#333}a{color:#DD4A27}a,a:active,a:focus,a:hover{outline:0}label{font-weight:400}button{font-family:'Open Sans',sans-serif;-webkit-box-shadow:rgba(0,0,0,.2)0 1px 0 0;-moz-box-shadow:rgba(0,0,0,.2)0 1px 0 0;box-shadow:rgba(0,0,0,.2)0 1px 0 0;color:#333;background-color:#FA2;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;border:none;font-weight:700;font-size:100%;height:32px;padding:4px 16px;text-shadow:#FE6 0 1px 0;cursor:pointer}input,textarea{font-family:'Open Sans',sans-serif;padding:3px;font-size:100%}
+
+
+.container
+{
+	text-align:center; overflow:hidden; padding:0px 0px 20px 20px;
+	width:77%; float:left; border:#B8B8B8 solid 2px;
+
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px; /* future proofing */
+	-khtml-border-radius: 10px; /* for old Konqueror browsers */
+	
+	background:url(images/node-connecting-lines.png) no-repeat;
+	background-position:55px 86px;
+}
+.container .title-para
+{
+	text-align:left; padding-left:270px;
+}
+.container .first-level
+{
+	text-align:left;
+	padding:0px 0px 120px 415px; overflow:hidden;
+}
+.container .second-level
+{
+	max-width:1200px; margin:0px auto; overflow:hidden;
+}
+.container .second-level-1
+{
+	float:left; padding-bottom:120px; overflow:hidden;
+	margin-left:40px;
+}
+.container .second-level-2
+{
+	float:left; padding-bottom:120px; overflow:hidden;
+	margin-left:120px;
+}
+.container .second-level-3
+{
+	float:left; padding-bottom:120px; overflow:hidden;
+	margin-left:150px;
+}
+.container .second-level-4
+{
+	float:left; padding-bottom:120px; overflow:hidden;
+	margin-left:100px;
+}
+.container .second-level-5
+{
+	float:left; padding-bottom:120px; overflow:hidden;
+	margin-left:180px;
+}
+.container .third-level
+{
+	max-width:1200px; margin:0px auto; overflow:hidden;
+}
+.container .third-level DIV
+{
+	float:left; padding:0px 4px 150px 4px; overflow:hidden;
+}
+.container .fourth-level
+{
+	max-width:200px; margin-left:410px;
+}
+.container .fourth-level DIV
+{
+	float:left; width:50%; overflow:hidden;
+}
+.button-list
+{
+	width:19%; float:left; font-size:13px; margin:0px 0px 0px 10px;
+	padding:5px;
+
+	border:#B8B8B8 solid 2px;
+
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px; /* future proofing */
+	-khtml-border-radius: 10px; /* for old Konqueror browsers */
+}
+.button-list ul
+{
+	padding-left:0px; margin-left:20px;
+}
+.button-list ul li
+{
+	list-style:none; padding:0px 0px 3px 0px; margin-left:0px;
+}
+
+
+.dashboard
+{
+	width:100%; overflow:hidden; font-size:14px; width:1000px;
+	
+}
+.dashboard .top-row
+{
+	width:100%; overflow:hidden;
+}
+.dashboard .top-row .column
+{
+	width:29%; float:left; margin:0px 10px 00px 0px; padding:0px 10px 10px 10px;
+}
+.dashboard .round-border
+{
+	border:#B8B8B8 solid 1px;
+
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px; /* future proofing */
+	-khtml-border-radius: 7px; /* for old Konqueror browsers */
+}
+.dashboard .top-row .column td
+{
+	padding:2px 0px 2px 0px;
+}
+.dashboard .update-rulebase
+{
+	margin:20px 0px; padding:0px 10px;
+}
+select
+{
+	padding:5px;
+}
+option
+{
+	padding:5px;
+}
+.dashboard .update-button-cell
+{
+	padding:10px 0px;
+}
+.dashboard .second-row
+{
+	padding:10px; margin:20px 0px;
+}
+.dashboard .third-row
+{
+	width:100%; overflow:hidden;
+}
+.dashboard .third-row .column
+{
+	width:39%; float:left; margin:0px 10px 00px 0px; padding:0px 10px 10px 10px;
+}
+.dashboard .final-row
+{
+	width:100%; overflow:hidden;
+}
+.dashboard .final-row .left-row
+{
+	width:80%; float:left; padding:10px;
+}
+.dashboard .final-row .right-row
+{
+	width:15%; float:left; padding:5px 10px 0px 10px;
+}
+.dashboard .final-row .right-row input
+{
+	font-size:18px; padding:5px 20px 5px 20px;;
+}
+.dashboard .html_output
+{
+	margin-bottom:20px; width:1000px; overflow-x: scroll; display:none;
+}
+.dashboard .tableborder
+{
+	border: 1px solid #999;
+}
+.dashboard th
+{
+	font-weight: bold;
+	text-align: left;
+	font-size: 12px;
+	background-color: #666;
+	color: #fff;
+	padding: 4px;
+}
+
+.dashboard .td
+{
+	font-weight: normal;
+	font-size: 12px;
+	padding: 6px;
+	 background-color: #f3f3f3;
+}
+.dashboard .td1
+{
+	font-weight: normal;
+	font-size: 12px;
+	padding: 6px;
+	background-color: #DBDBDB; 
+}
+
+
+.dashboard .graph
+{
+	padding:20px;
+}
+
+.status-row
+{
+}
+
+.status-container
+{
+	margin:20px 0px;
+	background:none;
+	font-weight: normal;
+	font-size: 12px;
+	text-align: left;
+}
+
+.container .status
+{
+	margin-top:20px;
+}
+
+/* Firefox only CSS */
+@-moz-document url-prefix() { 
+	button
+	{
+		padding:4px 12px;
+	}
+}
+.vertical-text {
+	float: left; 
+    position: relative;
+    -moz-transform: rotate(270deg);  /* FF3.5+ */        
+    -o-transform: rotate(270deg);  /* Opera 10.5 */   
+    -webkit-transform: rotate(270deg);  /* Saf3.1+, Chrome */              
+    filter:  progid:DXImageTransform.Microsoft.BasicImage(rotation=3);  /* IE6,IE7 */          
+    -ms-filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); /* IE8 */
+}
+
+.color-list
+{
+	list-style-type:none;
+}
+.color-holder
+{
+	float:left; padding-bottom:5px; padding-left:0px;
+}
+.color-span
+{
+	width:20px; height:20px; float:left; margin-left:30px;
+	background:#FFFFFF;
+}
+.color-name
+{
+	font-weight:bold; padding-left:10px;
+}
